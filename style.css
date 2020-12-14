@@ -1,0 +1,318 @@
+
+
+
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+@font-face {
+	font-family: b-itl ;
+	src: url(fonts/BARNAULGROTESKEXTRABOLD-ITAL.TTF);
+}
+
+@font-face {
+	font-family: b-itlb ;
+	src: url(fonts/BARNAULGROTESKBOLD-ITAL.TTF);
+}
+
+@font-face {
+	font-family: b-itlr ;
+	src: url(fonts/BARNAULGROTESK-ITAL.TTF);
+}
+
+@font-face {
+	font-family: b-itlm ;
+	src: url(fonts/BARNAULGROTESKMEDIUM-ITAL.TTF);
+}
+
+@font-face {
+	font-family: bad ;
+	src: url(fonts/BEBASTHIN.TTF);
+}
+
+
+
+
+body{
+	background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(253,198,23,1) 19%, rgba(253,198,23,1) 56%, rgba(255,255,255,1) 100%);
+background-repeat: no-repeat;
+
+background-size: cover;
+}
+
+
+.cont{
+	max-width: 1400px;
+	width: 100%;
+	height: 100%;
+	margin: 0px auto;
+	
+}
+
+.container{
+	max-width: 1000px;
+	width: 100%;
+	height: 100%;
+	margin: 0px auto;
+	overflow: hidden;
+}
+
+
+/*HEADER*/
+
+.header{
+	margin: 0px auto;
+	background-image: url(img/head.png) ;
+	height: 210px;
+
+}
+
+.up__head{
+	display: flex;
+	margin-left: 192px;
+	margin-top: 10px;
+
+}
+.title{
+	font-size: 60px;
+	color: #ffffff;
+	font-family: b-itl;
+	text-shadow: #000 0px 0px 6px;
+
+}
+
+.prod a{
+	font-size: 17px;
+	color: #ffe900;
+	text-decoration: none;
+	font-family: b-itlb;
+}
+
+.prod{
+	margin-top: 38px;
+	margin-left: 60px;
+}
+
+.down__head{
+	display: flex;
+	margin-top: 9px;
+	margin-left: 222px;
+}
+
+.pri{
+	color: #ffe900;
+}
+
+.tit{
+	font-size: 50px;
+	color: #ffffff;
+	font-family: b-itl;
+	text-shadow: #000 4px -1px 0px;
+}
+
+.buy a{
+font-size: 17px;
+	color: #ffe900;
+	text-decoration: none;
+	font-family: b-itlb;
+}
+
+.buy{
+	margin-top: 20px;
+	margin-left: 50px;
+}
+
+/*INTRO*/
+
+.intro{
+	margin-top: 27px;
+
+}
+
+.intro__title{
+font-size: 60px;
+color: #2a4a93;
+margin-left: 100px;
+font-family: b-itl;
+display: inline-block;
+}
+
+.orvi{
+	color: #e61d25;
+}
+.intro__img{
+	display: inline-block;
+}
+
+.box__intro{
+	width: 777px;
+	height: 524px;
+	margin-top: 16px;
+	
+}
+
+.tabs{
+	margin-right: 25px;
+}
+
+.img__tabs{
+	width: 100px;
+	height: 100px;
+}
+
+.img__tabs:hover{
+	width: 103px;
+	height: 103px;
+}
+
+.intro__wrapper{
+	display: flex;
+}
+
+.cough{
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.cough__text{
+	color: #274a9c;
+	font-size: 20px;
+	font-family: b-itl;
+}
+
+
+
+/*PRODUCT*/
+
+.product{
+	margin-top: 80px;
+}
+
+.title__product{
+	color: #304a83;
+	font-family: b-itl;
+	font-size: 40px;
+}
+
+.text__product{
+	font-size: 20px;
+	font-family: b-itlb;
+
+}
+
+.up__product{
+	margin-left: 100px;
+}
+
+.block__product{
+	display: flex;
+	justify-content: center;
+	margin-top: 45px;
+
+}
+
+.block{
+	border: 2px solid #194ac1;
+	margin-right: 33px;
+	padding: 10px;
+	background: rgb(253,198,23);
+background: linear-gradient(23deg, rgba(253,198,23,1) 0%, rgba(255,255,255,1) 100%);
+	display: flex;
+
+}
+
+.text__block{
+	color: #294a99;
+	font-size: 20px;
+	font-family: b-itl;
+	margin-top: 38px;
+}
+
+.imb{
+	height: 40px;
+	width: 40px;
+}
+
+.imbv{
+	height: 40px;
+	width: 46px;
+}
+
+.text__blockm{
+	color: #294a99;
+	font-size: 20px;
+	font-family: b-itl;
+	padding-top: 61px;
+}
+
+
+.buy__block{
+	margin-top: 35px;
+}
+
+.title__buy{
+	font-size: 40px;
+	color: #df2123;
+	font-family: b-itl;
+	text-align: center;
+}
+
+.shop{
+	text-align: center;
+	margin-top: 40px;
+
+}
+
+.buy__img{
+	width: 156px;
+	height: 61px;
+}
+
+.name__shops{
+margin-left: 140px;
+margin-right: 140px;
+}
+
+.ask{
+	text-align: center;
+	font-size: 22px;
+	font-family: b-itlb;
+	margin-top: 15px;
+}
+
+.alert{
+	font-size: 60px;
+font-family: bad;
+text-align: center;
+margin-top: 20px;
+}
+
+/*FOOTER*/
+
+
+footer{
+	height: 150px;
+	background: #2a4a93;
+	margin-top: 30px;
+}
+
+.wrap__foot{
+	border-bottom: 3px solid #ffffff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.info{
+	margin-left: 20px;
+	font-size: 15px;
+	color: #ffffff;
+}
+.down__info{
+	margin-top: 10px;
+}
